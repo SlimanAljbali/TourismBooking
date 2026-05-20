@@ -124,7 +124,7 @@ pipeline {
             sh '''
                 docker logout "$DOCKER_REGISTRY" || true
             '''
-            deleteDir()
+          //  deleteDir()
         }
     }
 }
